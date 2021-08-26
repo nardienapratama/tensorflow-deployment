@@ -11,7 +11,7 @@ Make sure you have [Docker Compose](https://docs.docker.com/compose/install/) in
     ```git clone https://github.com/nardienapratama/tensorflow-deployment.git```
     
 2. Enter the `tensorflow-deployment` directory.
-3. Start up the application by running `docker-compose up` or `sudo docker-compose up` if you are in Linux.
+3. Start up the application by running `docker-compose up --build` or `sudo docker-compose up --build` if you are in Linux. After having run the command, assuming you have not deleted the container, you can run the application again without using the `--build` tag, i.e. `docker-compose up` or `sudo docker-compose up`.
 4. Enter http://localhost:5000/ in your browser to see the application running.
     
 ## Sources Used
