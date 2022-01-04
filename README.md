@@ -1,6 +1,6 @@
 # Deploying a Custom Deep Learning Tensorflow Model using Tensorflow Serving with Docker Compose and Flask
 
-## Environment Pre-requisites
+## Environment Prerequisites
 
 Make sure you have [Docker Compose](https://docs.docker.com/compose/install/) installed in your computer. 
 
